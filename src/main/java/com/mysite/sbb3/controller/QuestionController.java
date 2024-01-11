@@ -1,22 +1,17 @@
 package com.mysite.sbb3.controller;
 
-import com.mysite.sbb3.entity.AnswerForm;
+import com.mysite.sbb3.exception.AnswerForm;
 import com.mysite.sbb3.entity.Question;
-import com.mysite.sbb3.entity.QuestionForm;
-import com.mysite.sbb3.repository.QuestionRepository;
+import com.mysite.sbb3.exception.QuestionForm;
 import com.mysite.sbb3.service.QuestionService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.Banner;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.data.domain.Page;
-
-
-import java.util.List;
 
 @RequestMapping("/question")
 @RequiredArgsConstructor //어노테이션의 생성자, questionRepository 객체 주입

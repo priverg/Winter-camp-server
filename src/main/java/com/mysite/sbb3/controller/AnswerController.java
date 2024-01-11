@@ -1,6 +1,6 @@
 package com.mysite.sbb3.controller;
 
-import com.mysite.sbb3.entity.AnswerForm;
+import com.mysite.sbb3.exception.AnswerForm;
 import com.mysite.sbb3.entity.Question;
 import com.mysite.sbb3.service.AnswerService;
 import com.mysite.sbb3.service.QuestionService;
@@ -12,7 +12,6 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @RequestMapping("/answer")
 @RequiredArgsConstructor
