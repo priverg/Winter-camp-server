@@ -1,7 +1,7 @@
 package com.mysite.sbb3.controller;
 
 import com.mysite.sbb3.exception.AnswerForm;
-import com.mysite.sbb3.entity.Question;
+import com.mysite.sbb3.domain.Question;
 import com.mysite.sbb3.service.AnswerService;
 import com.mysite.sbb3.service.QuestionService;
 import jakarta.validation.Valid;

@@ -1,10 +1,8 @@
 package com.mysite.sbb3.service;
 
-import com.mysite.sbb3.entity.SiteUser;
+import com.mysite.sbb3.domain.SiteUser;
 import com.mysite.sbb3.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
-import org.apache.catalina.User;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 

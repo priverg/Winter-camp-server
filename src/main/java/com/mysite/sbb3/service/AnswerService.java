@@ -1,7 +1,7 @@
 package com.mysite.sbb3.service;
 
-import com.mysite.sbb3.entity.Answer;
-import com.mysite.sbb3.entity.Question;
+import com.mysite.sbb3.domain.Answer;
+import com.mysite.sbb3.domain.Question;
 import com.mysite.sbb3.repository.AnswerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

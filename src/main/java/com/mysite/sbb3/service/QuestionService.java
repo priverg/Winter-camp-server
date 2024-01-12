@@ -1,10 +1,9 @@
 package com.mysite.sbb3.service;
 
-import com.mysite.sbb3.entity.Question;
+import com.mysite.sbb3.domain.Question;
 import com.mysite.sbb3.exception.DataNotFoundException;
 import com.mysite.sbb3.repository.QuestionRepository;
 import lombok.RequiredArgsConstructor;
-import org.springframework.boot.context.config.ConfigDataResourceNotFoundException;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 

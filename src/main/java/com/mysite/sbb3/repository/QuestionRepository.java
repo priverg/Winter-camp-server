@@ -1,6 +1,6 @@
 package com.mysite.sbb3.repository;
 
-import com.mysite.sbb3.entity.Question;
+import com.mysite.sbb3.domain.Question;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.domain.Page;

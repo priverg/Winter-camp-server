@@ -1,4 +1,4 @@
-package com.mysite.sbb3.entity;
+package com.mysite.sbb3.domain;
 
 import jakarta.persistence.*;
 import lombok.Getter;

@@ -1,9 +1,8 @@
-package com.mysite.sbb3.entity;
+package com.mysite.sbb3.domain;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
-import com.mysite.sbb3.entity.Answer;
 import jakarta.persistence.*;
 
 import lombok.Getter;
